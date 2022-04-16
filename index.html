@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- google fonts are now end -->
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio of Md. Jahid Hasan Badhon.</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+            <nav class="row">
+               <div class="nav-logo">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo-symbol-dark.png" alt="logo">
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <ul class="row">
+                        <li><a href="#" class="home">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+               </div>
+                <div class="social row">
+                    <ul class="row">
+                        <li><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                    </path>
+                                </svg></a></li>
+                        <li><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                    </path>
+                                </svg></a></li>
+                        <li><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                    </path>
+                                </svg></a></li>
+                        <li><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                    </path>
+                                </svg></a></li>
+                    </ul>
+                    <div class="contact-btn">
+                        <button>Contact Now</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <!-- hero section is start here. -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-text">
+                <p>WELCOME TO MY WORLD</p>
+                <h1>I’m Jahid<br>
+                    <span>Web Developer.</span><br>
+                    based in BD.</h1>
+                <button>download cv</button>
+            </div>
+        </div>
+    </section>
+    <!-- about section is start here. -->
+    <section class="about">
+        <div class="container row">
+            <div class="about-left">
+                <div class="about-image">
+                    <img src="images/about-8.jpg" alt="photo of jahid">
+                </div>
+            </div>
+            <div class="about-right">
+                <span class="about-upper">My About Details</span>
+                <h1>About Me</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered in
+                    some form, by injected humour.</p>
+                <ul>
+                    <li><button>Main skills</button></li>
+                    <li><button>Awards</button></li>
+                    <li><button>Experience</button></li>
+                    <li><button>Education</button></li>
+                </ul>
+
+                <div class="wrapper1">
+                    <div class="skill">
+                       <div class="skill-title">
+                            <p>HTML5</p><span class="skill-count1">95%</span>
+                       </div>
+                        <div class="skill-bar skill1 wow slideInLeft animated"><span style="width: 98%;"></span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-title">
+                            <p>CSS3</p><span class="skill-count2">85%</span>
+                        </div>
+                        <div class="skill-bar skill2 wow slideInLeft animated"><span style="width: 80%;"></span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-title">
+                            <p>JQUERY</p><span class="skill-count3">75%</span>
+                        </div>
+                        <div class="skill-bar skill3 wow slideInLeft animated"><span style="width: 70%;"></span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-title">
+                            <p>JAVASCRIP</p><span class="skill-count4">65%</span>
+                        </div>
+                        <div class="skill-bar skill4 wow slideInLeft animated"><span style="width: 60%;"></span></div>
+                    </div>
+                </div><!-- end of /.coloumn -->
+                 <!--This is wrapper 2-->
+                 <!--This is wrapper 2-->
+                <div class="wrapper2">
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                Awwwards.com - 
+                            </div>
+                            <div class="awerds-position">
+                                Winner
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2019 - 2020
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                Awwwards.com - 
+                            </div>
+                            <div class="awerds-position">
+                                Winner
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2019 - 2020
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                Awwwards.com - 
+                            </div>
+                            <div class="awerds-position">
+                                Winner
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2019 - 2020
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                Awwwards.com - 
+                            </div>
+                            <div class="awerds-position">
+                                Winner
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2019 - 2020
+                        </div>
+                    </div>
+                </div>
+                 <!--This is wrapper 3-->
+                 <!--This is wrapper 3-->
+                <div class="wrapper3" style="display: none;">
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                Sr. Front-end Engineer
+                            </div>
+                            <div class="awerds-position">
+                               - Google
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2018 - Current
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                Front-end Engineer 
+                            </div>
+                            <div class="awerds-position">
+                                - Microsoft
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2017 - 2018
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                Software Engineer 
+                            </div>
+                            <div class="awerds-position">
+                                - Alibaba
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2013- 2014
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                Software Engineer
+                            </div>
+                            <div class="awerds-position">
+                                - Alibaba
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2013- 2014
+                        </div>
+                    </div>
+                </div>
+
+                <!--This is wrapper 4-->
+                 <!--This is wrapper 4-->
+                <div class="wrapper4" style="display: none;">
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                BSc In CSE 
+                            </div>
+                            <div class="awerds-position">
+                                - ABC University, Los Angeles, CA
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2010
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                Diploma in Computer Science 
+                            </div>
+                            <div class="awerds-position">
+                                - Gamma Technical Institute
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2009
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                Graphic Designer 
+                            </div>
+                            <div class="awerds-position">
+                                - ABC Institute, Los Angeles, CA
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2007
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <div class="awerds-header">
+                            <div class="awerds-name">
+                                Graphic Designer  
+                            </div>
+                            <div class="awerds-position">
+                                - ABC Institute, Los Angeles, CA
+                            </div>
+                        </div>
+                        <div class="awerds-body">
+                            2007
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<section class="services">
+    <div class="container">
+        
+    <h3>What I can do for you</h3>
+    <h1>My Awesome Service</h1>
+    <p>There are many variations of passages of Lorem Ipsum available,
+        but the majority have suffered alteration.</p>
+        <div class="service-card-section">
+            <div class="service-card">
+                <a href="#">
+                    <div class="logo">
+                        <svg stroke="currentColor" fill="none" stroke-width="1" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2" y2="20"></line></svg>
+                    </div>
+                    <h2>
+                        Business Stratagy
+                    </h2>
+                    <p>
+                        I throw myself down among the tall grass by the stream as I lie close to the earth.
+                    </p>
+                </a>
+            </div>
+            <div class="service-card">
+                <a href="#">
+                    <div class="logo">
+                        <svg stroke="currentColor" fill="none" stroke-width="1" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2" y2="20"></line></svg>
+                    </div>
+                    <h2>
+                        Business Stratagy
+                    </h2>
+                    <p>
+                        I throw myself down among the tall grass by the stream as I lie close to the earth.
+                    </p>
+                </a>
+            </div>
+            <div class="service-card">
+                <a href="#">
+                    <div class="logo">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>                    </div>
+                    <h2>
+                        Business Stratagy
+                    </h2>
+                    <p>
+                        I throw myself down among the tall grass by the stream as I lie close to the earth.
+                    </p>
+                </a>
+            </div>
+            <div class="service-card">
+                <a href="#">
+                    <div class="logo">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>                    </div>
+                    <h2>
+                        Business Stratagy
+                    </h2>
+                    <p>
+                        I throw myself down among the tall grass by the stream as I lie close to the earth.
+                    </p>
+                </a>
+            </div>
+            <div class="service-card">
+                <a href="#">
+                    <div class="logo">
+                        <svg stroke="currentColor" fill="none" stroke-width="1" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2" y2="20"></line></svg>
+                    </div>
+                    <h2>
+                        Business Stratagy
+                    </h2>
+                    <p>
+                        I throw myself down among the tall grass by the stream as I lie close to the earth.
+                    </p>
+                </a>
+            </div>
+            <div class="service-card">
+                <a href="#">
+                    <div class="logo">
+                        <svg stroke="currentColor" fill="none" stroke-width="1" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2" y2="20"></line></svg>
+                    </div>
+                    <h2>
+                        Business Stratagy
+                    </h2>
+                    <p>
+                        I throw myself down among the tall grass by the stream as I lie close to the earth.
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="services">
+    <div class="container">
+        
+    <h3>My Complete project</h3>
+    <h1>My Latest Project</h1>
+    <p>There are many variations of passages of Lorem Ipsum available,
+        but the majority have suffered alteration</p>
+    </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="portfolio-tiles">
+                <a href="#">
+                    <img src="images/portfolio/portfolio-4.jpg" alt="">
+                    <div class="overlay"></div>
+                   <div class="portfolio-content">
+                    <h4>Development</h4>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                   </div>
+                </a>
+                <a href="#">
+                    <img src="images/portfolio/portfolio-5.jpg" alt="">
+                    <div class="overlay"></div>
+                   <div class="portfolio-content">
+                    <h4>Development</h4>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                   </div>
+                </a>
+                <a href="#">
+                    <img src="images/portfolio/portfolio-6.jpg" alt="">
+                    <div class="overlay"></div>
+                   <div class="portfolio-content">
+                    <h4>Development</h4>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                   </div>
+                </a>
+                <a href="#">
+                    <img src="images/portfolio/portfolio-7.jpg" alt="">
+                    <div class="overlay"></div>
+                   <div class="portfolio-content">
+                    <h4>Development</h4>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                   </div>
+                </a>
+                <a href="#">
+                    <img src="images/portfolio/portfolio-8.jpg" alt="">
+                    <div class="overlay"></div>
+                   <div class="portfolio-content">
+                    <h4>Development</h4>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                   </div>
+                </a>
+                <a href="#">
+                    <img src="images/portfolio/portfolio-9.jpg" alt="">
+                    <div class="overlay"></div>
+                   <div class="portfolio-content">
+                    <h4>Development</h4>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                   </div>
+                </a>
+            </div>
+        </div>
+    </section>
+<section class="project-btn">
+    <div class="container">
+        <button>View Projects</button>
+    </div>
+</section>
+<section class="services">
+    <div class="container">
+        
+    <h3>My Complete project</h3>
+    <h1>My Latest Project</h1>
+    <p>There are many variations of passages of Lorem Ipsum available,
+        but the majority have suffered alteration</p>
+    </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="portfolio-tiles blogs-tiles">
+                <a href="#">
+                    <img src="images/blog/blog-01.jpg" alt="">
+                    <div class="overlay"></div>
+                   <div class="blog-content">
+                    <h4>Development</h4>
+                    <p>What is the Difference between Web and Brand. </p>
+                   <button>Read More</button>
+                </div>
+                </a>
+                <a href="#">
+                    <img src="images/blog/blog-02.jpg" alt="">
+                    <div class="overlay"></div>
+                   <div class="blog-content">
+                    <h4> Photoshop</h4>
+                    <p>Getting tickets to the big show have a closer look. </p>
+                   <button>Read More</button>
+                </div>
+                </a>
+                <a href="#">
+                    <img src="images/blog/blog-03.jpg" alt="">
+                    <div class="overlay"></div>
+                   <div class="blog-content">
+                    <h4>React App</h4>
+                    <p>A big ticket gone to be an interesting look New York.</p>
+                   <button>Read More</button>
+                </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="contact">
+            <div class="left">
+                
+                    <span class="g-style" >Let's Say Hi</span>
+                    <h1>Hire Me</h1>
+                    <p>Call us directly: &nbsp;&nbsp;&nbsp;<span>+111 (0)55 5869 8976</span></p>
+                    <p>Contact Email: &nbsp;&nbsp;&nbsp;<span>example@gmail.com</span></p>
+                    <form action="" method="post">
+                        <input type="text" name="name" id="" placeholder="Your Name *">
+                        <input type="email" name="name" id="" placeholder="Your Email *">
+                        <input type="text" name="name" id="" placeholder="Write a Subject">
+                        <textarea name="message" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
+                        <Button type="submit">Submit Now</Button>
+                    </form>
+                </div>
+            
+            <div class="right">
+                <div class="about-image">
+                    <img src="images/user/about-13.jpg" alt="photo of jahid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="images/user/logo-light.png" alt="logo" srcset="">
+                </div>
+            </div>
+            <div class="footer-center">
+                <ul class="row">
+                    <li><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                </path>
+                            </svg></a></li>
+                    <li><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                </path>
+                            </svg></a></li>
+                    <li><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                </path>
+                            </svg></a></li>
+                    <li><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                </path>
+                            </svg></a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <p>Copyright &copy; 2021 Rainbow-Themes. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
